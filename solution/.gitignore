@@ -1,0 +1,4 @@
+# Generated files and tracking derivatives are not part of the public repository.
+cache/
+artifacts/
+__pycache__/
