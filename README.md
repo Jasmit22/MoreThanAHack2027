@@ -1,5 +1,20 @@
 # More than a Hack 2027 — Phase 1: Ball Possession
 
+## This submission
+
+- Source code: [`solution/`](solution/)
+- Upload CSV: [`submission/FC YYC.csv`](submission/FC%20YYC.csv)
+- Technical document: [`submission/FC YYC.md`](submission/FC%20YYC.md)
+
+To regenerate and validate the CSV:
+
+```bash
+python solution/pipeline.py --to-submission
+python evaluation/validate_submission.py "submission/FC YYC.csv"
+```
+
+The upload files already use the team name.
+
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
 and the [Mobile World Capital Barcelona](https://www.mwcbarcelona.com)**, at the Talent Arena in Barcelona.
 
